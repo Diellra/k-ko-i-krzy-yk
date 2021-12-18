@@ -84,3 +84,22 @@ def gra():
                 drukujPlansze(PlanszaDoGry)
                 print('n\KoniecGry!\n')
                 print(f'WYGRAŁ GRACZ:{gracz}')
+
+            if licznik==9:
+                print('\nKONIEC GRY!\n')
+                print('\JEST REMIS!\n')
+
+        if gracz=='x':
+            gracz='0'
+        else:
+            gracz='x'
+
+    restart=input('CZY CHCESZ ZAGRAĆ PONOWNIE/9t/n')
+    if restart=='t' or restart=='T':
+        for key in KlawiszeGry:
+            PlanszaDoGry[key]=''
+
+
+
+
+
