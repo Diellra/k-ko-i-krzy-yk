@@ -99,6 +99,8 @@ def gra():
         for key in KlawiszeGry:
             PlanszaDoGry[key]=''
 
+            
+
 
 
 
